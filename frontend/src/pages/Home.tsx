@@ -6,6 +6,7 @@ import {
 } from "../services/contactService";
 import { type Contact } from "../types/contact";
 import AddContact from "../components/AddContact";
+import SakuraCursor from "../components/SakuraCursor";
 
 // Sakura petal SVG path
 const PetalSVG = ({ style }: { style: React.CSSProperties }) => (
@@ -180,6 +181,9 @@ export default function Home() {
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: #f0b8c8; border-radius: 10px; }
       `}</style>
+
+      {/* ── Mouse-trail sakura cursor ── */}
+      <SakuraCursor />
 
       {/* ── Falling petals ── */}
       {petals.map((p) => (
