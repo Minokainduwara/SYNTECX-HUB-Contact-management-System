@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=36&duration=3000&pause=1000&color=E8849A&center=true&vCenter=true&width=600&lines=🌸+Contact+Garden;Your+Personal+Contact+Manager" alt="Contact Garden" />
+# 🌸 Contact Garden (Contact Management System)
 
 <br/>
 
